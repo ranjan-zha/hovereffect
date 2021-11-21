@@ -1,0 +1,66 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    height: 500px;
+    background-color: #ffffff;
+}
+.centerBox{
+    height: 400px;
+    width: 400px;
+    border: 2px solid #aaa;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.parentDrop{
+ cursor: pointer;
+ height: 20px;
+ width: 90px;
+ background-color: rgb(49, 206, 245);
+ text-align: center;
+ padding: 4px;
+}
+.dropdown{
+    margin: auto;
+    display: none;
+    width: 130px;
+    margin-left: 50px;
+}
+.hoverWrap:hover > .dropdown {
+    display: block;
+}
+
+.dropdown div{
+    display: block;
+    cursor: pointer;
+    padding-left: 10px;
+    background-color: #eee;
+}
+.hr .hrDept a{
+    display: none;
+}
+
+.hr:hover .hrDept{
+    display: block;
+    width: 130px;
+    background-color: rgb(211, 241, 248);
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 91px;
+}
+.hr:hover .hrDept a{
+    display: block;
+    color: rgb(23, 24, 14)  ;
+}
+
+.hrDept a{
+    display: block;
+}
+
+
+/* tl = 88 
+tw = 
+22 *40 */
